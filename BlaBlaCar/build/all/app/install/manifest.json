@@ -1,0 +1,15 @@
+{
+    "name": "blablacar.pparent",
+    "description": "A BlaBlaCar webapp (unofficial).",
+    "architecture": "all",
+    "title": "BlaBlaCar",
+    "hooks": {
+        "google-maps-unofficial": {
+            "apparmor": "blablacar.apparmor",
+            "desktop": "blablacar.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework": "ubuntu-sdk-20.04.1"
+}
