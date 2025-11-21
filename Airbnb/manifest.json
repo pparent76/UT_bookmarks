@@ -1,0 +1,16 @@
+{
+    "name": "airbnb.pparent",
+    "description": "An Airbnb webapp (unofficial).",
+    "architecture": "all",
+    "title": "Airbnb",
+    "hooks": {
+        "airbnb": {
+            "apparmor": "airbnb.apparmor",
+            "desktop":  "airbnb.desktop"
+
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
