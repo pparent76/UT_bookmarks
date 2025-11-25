@@ -1,0 +1,11 @@
+{
+    "template": "ubuntu-webapp",
+    "policy_groups": [
+        "webview",
+        "audio",
+        "networking",
+        "keep-display-on",
+        "microphone"
+    ],
+    "policy_version": "@APPARMOR_POLICY@"
+}

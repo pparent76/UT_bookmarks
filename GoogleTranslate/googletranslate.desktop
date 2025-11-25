@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Google translate
+Exec=webapp-container --webappUrlPatterns='https://*.google.com/*,https://*.gstatic.com/*,https://*.googleapis.com/*' --app-id='googletranslate.pparent' --store-session-cookies --webapp-name='Google Translate' https://translate.google.com/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

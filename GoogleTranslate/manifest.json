@@ -1,0 +1,16 @@
+{
+    "name": "googletranslate.pparent",
+    "description": "Google Translate webapp (unofficial).",
+    "architecture": "all",
+    "title": "Google Translate",
+    "hooks": {
+        "googletranslate": {
+            "apparmor": "googletranslate.apparmor",
+            "desktop":  "googletranslate.desktop"
+
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
