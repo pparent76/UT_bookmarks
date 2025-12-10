@@ -1,0 +1,16 @@
+{
+    "name": "vinted.pparent",
+    "description": "A Vinted webapp (unofficial).",
+    "architecture": "all",
+    "title": "Vinted",
+    "hooks": {
+        "google-maps-unofficial": {
+            "apparmor": "vinted.apparmor",
+            "desktop":  "vinted.desktop"
+
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
