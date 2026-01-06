@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Uber
+Exec=webapp-container --webappUrlPatterns='https://*.uber.com/*' --app-id='uber.pparent' --store-session-cookies --webapp-name='Uber' https://m.uber.com
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

@@ -1,0 +1,16 @@
+{
+    "name": "uber.pparent",
+    "description": "An Uber webapp (unofficial).",
+    "architecture": "all",
+    "title": "Uber",
+    "hooks": {
+        "uber": {
+            "apparmor": "uber.apparmor",
+            "desktop":  "uber.desktop"
+
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
