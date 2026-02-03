@@ -1,0 +1,16 @@
+{
+    "name": "tandem.pparent",
+    "description": "A tandem webapp.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "whatsweb",
+    "hooks": {
+        "whatsweb": {
+            "apparmor": "tandem.apparmor",
+            "desktop":  "tandem.desktop",
+            "content-hub": "content-hub.json"
+        }
+    },
+    "version": "0.1.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
