@@ -1,0 +1,16 @@
+{
+    "name": "sncfconnect.pparent",
+    "description": "A Sncf connect webapp (unofficial).",
+    "architecture": "all",
+    "title": "Uber",
+    "hooks": {
+        "sncfconnect": {
+            "apparmor": "sncfconnect.apparmor",
+            "desktop":  "sncfconnect.desktop",
+            "urls": "sncfconnect.url-dispatcher"
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

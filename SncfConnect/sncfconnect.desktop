@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sncf connect
+Exec=webapp-container --webappUrlPatterns='https://*.sncf-connect.com/*' --app-id='sncfconnect.pparent' --store-session-cookies --webapp-name='Sncf connect' https://www.sncf-connect.com/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
