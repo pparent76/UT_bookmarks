@@ -1,0 +1,16 @@
+{
+    "name": "leboncoin.pparent",
+    "description": "Leboncoin webapp (unofficial).",
+    "architecture": "all",
+    "title": "Leboncoin",
+    "hooks": {
+        "leboncoin": {
+            "apparmor": "leboncoin.apparmor",
+            "desktop":  "leboncoin.desktop"
+
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

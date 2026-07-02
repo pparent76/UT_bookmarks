@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Leboncoin
+Exec=webapp-container --webappUrlPatterns='https://*.leboncoin.fr/*' --app-id='leboncoin.pparent' --store-session-cookies --webapp-name='leboncoin' https://www.leboncoin.fr/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
