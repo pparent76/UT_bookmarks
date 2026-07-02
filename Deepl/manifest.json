@@ -1,0 +1,16 @@
+{
+    "name": "deepl.pparent",
+    "description": "Deepl webapp (unofficial).",
+    "architecture": "all",
+    "title": "Deepl",
+    "hooks": {
+        "deepl": {
+            "apparmor": "deepl.apparmor",
+            "desktop":  "deepl.desktop"
+
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

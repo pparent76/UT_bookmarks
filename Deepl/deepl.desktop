@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Deepl
+Exec=webapp-container --webappUrlPatterns='https://*.deepl.com/*' --app-id='deepl.pparent' --store-session-cookies --webapp-name='Deepl' https://www.deepl.com/fr/translator
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
