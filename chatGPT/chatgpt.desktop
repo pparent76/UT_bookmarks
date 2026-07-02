@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ChatGPT
+Exec=webapp-container --webappUrlPatterns='https://chatgpt.com/*,https://*.chatgpt.com/*,https://auth.openai.com/*,https://sentinel.openai.com/*,https://*.openai.com/*' --app-id='chatgpt.pparent' --store-session-cookies --webapp-name='ChatGPT' https://chatgpt.com/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

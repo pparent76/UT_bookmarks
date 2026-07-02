@@ -1,0 +1,16 @@
+{
+    "name": "chatgpt.pparent",
+    "description": "ChatGPT webapp (unofficial).",
+    "architecture": "all",
+    "title": "ChatGPT",
+    "hooks": {
+        "chatgpt": {
+            "apparmor": "chatgpt.apparmor",
+            "desktop":  "chatgpt.desktop"
+
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
