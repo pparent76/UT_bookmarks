@@ -46,7 +46,7 @@ if [[ -z "$URL" ]]; then
 fi
 
 echo "$URL"
-USER_AGENT="'Mozilla/5.0 ( Linux; Mobile; Ubuntu 20.04 Like Android 9 ) Firefox/140.0.2-1'"
 # Define the base command for webapp-container
-exec webapp-container --app-id=\"blablacar.pparent\" --store-session-cookies --webapp-name=\"BlaBlaCar\"  $URL
+ exec webapp-container --open-external-url-in-overlay --webappUrlPatterns="https://*.blablacar.*/*,https://blablacar.*/*" --app-id=\"blablacar.pparent\" --store-session-cookies --webapp-name=\"BlaBlaCar\"  $URL
+
 
