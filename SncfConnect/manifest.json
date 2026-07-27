@@ -2,7 +2,7 @@
     "name": "sncfconnect.pparent",
     "description": "A Sncf connect webapp (unofficial).",
     "architecture": "all",
-    "title": "Uber",
+    "title": "Sncf Connect",
     "hooks": {
         "sncfconnect": {
             "apparmor": "sncfconnect.apparmor",
