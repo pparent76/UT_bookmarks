@@ -10,7 +10,7 @@
             "urls": "sncfconnect.url-dispatcher"
         }
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "maintainer": "Pierre Parent <pro@pierre-parent.fr>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

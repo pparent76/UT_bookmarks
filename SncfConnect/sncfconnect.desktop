@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Sncf connect
-Exec=webapp-container --webappUrlPatterns='https://*.sncf-connect.com/*,https://*.sncf/*,https://*.monidentifiant.sncf/*' --app-id='sncfconnect.pparent' --store-session-cookies --webapp-name='Sncf connect' https://www.sncf-connect.com/
+Exec=webapp-container --webappUrlPatterns='https://*.sncf-connect.com/*,https://*.sncf/*,https://*.monidentifiant.sncf/*' --app-id='sncfconnect.pparent' --store-session-cookies --webapp-name='Sncf connect' https://www.sncf-connect.com/ %u
 Icon=assets/logo.png
 Terminal=false
 Type=Application

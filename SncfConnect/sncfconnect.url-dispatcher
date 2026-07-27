@@ -2,5 +2,9 @@
   {
 		"protocol": "https",
 		"domain-suffix": "sncf-connect.com"
-	}
+	},
+  {
+		"protocol": "https",
+		"domain-suffix": "www.sncf-connect.com"
+	}	
 ]
