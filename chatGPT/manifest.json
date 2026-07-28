@@ -6,8 +6,8 @@
     "hooks": {
         "chatgpt": {
             "apparmor": "chatgpt.apparmor",
-            "desktop":  "chatgpt.desktop"
-
+            "desktop":  "chatgpt.desktop",
+            "urls": "chatgpt.url-dispatcher"
         }
     },
     "version": "1.0.0",

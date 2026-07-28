@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=ChatGPT
-Exec=webapp-container  --app-id='chatgpt.pparent' --store-session-cookies --webapp-name='ChatGPT' https://chatgpt.com/
+Exec=webapp-container --webappUrlPatterns='https://*.chatgpt.com/*,https://chatgpt.com/*,https://*.openai.com/*' --app-id='chatgpt.pparent' --store-session-cookies --webapp-name='ChatGPT' https://chatgpt.com/ %u
 Icon=assets/logo.png
 Terminal=false
 Type=Application
